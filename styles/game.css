@@ -127,6 +127,19 @@
   background-color: var(--clr-neutral-light);
 }
 
+.score {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  font-size: var(--medium);
+  font-weight: 700;
+}
+
+.win-count {
+  font-size: var(--large);
+}
+
 /* MEDIA QUERIES */
 
 @media (max-aspect-ratio: 840 / 580) and (max-width: 1079px) {
@@ -148,7 +161,12 @@
     margin-inline-start: 24px;
   }
 
+  .score1 {
+    padding-left: 1rem;
+  }
+
   .score2 {
+    padding-right: 1rem;
     direction: rtl;
   }
 
@@ -264,6 +282,8 @@
     position: relative;
     flex-direction: column;
     width: 141px;
+
+    padding-top: 1.75rem;
   }
   .score:before {
     margin-top: 46px;
