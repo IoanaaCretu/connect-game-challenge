@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(/assets/fonts/SpaceGrotesk-VariableFont_wght.woff2)
+    format("woff-variations");
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+:root {
+  --clr-neutral-light: #fff;
+  --clr-neutral-dark: #000;
+
+  --clr-light-purple: #7945ff;
+  --clr-dark-purple: #5c2dd5;
+
+  --clr-accent-100: #ffce67;
+  --clr-accent-200: #fd6687;
+
+  --large: 56px;
+  --medium: 24px;
+  --small: 20px;
+  --x-small: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-dark-purple);
+  font-family: "SpaceGrotesk", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: var(--x-small);
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  user-select: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: 0;
+  font-family: inherit;
+  text-transform: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+}
