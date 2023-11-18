@@ -12,11 +12,30 @@ checkRulesButton.addEventListener("click", () => {
 
 const mainMenu = document.querySelector(".main-menu");
 const gameContainer = document.querySelector(".game");
-const startGameButton = document.querySelector(".play-btn");
+const displayGameBoardButton = document.querySelector(".pvp-btn");
 
-startGameButton.addEventListener("click", () => {
+displayGameBoardButton.addEventListener("click", () => {
   mainMenu.classList.add("hidden");
   gameContainer.classList.remove("hidden");
 
   document.body.style.backgroundColor = "#7945ff";
+});
+
+/* // start game button
+
+document.querySelector(".play-btn").addEventListener("click", () => {
+  playGame();
+});
+
+// restart game button
+
+document.querySelector("restart-btn").addEventListener("click", () => {
+  restartGame();
+}); */
+
+//ingame menu open
+
+const inGameMenu = document.querySelector(".ingame-menu");
+document.querySelector(".menu-btn").addEventListener("click", () => {
+  inGameMenu.classList.remove("hidden");
 });

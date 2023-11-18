@@ -48,7 +48,7 @@
   box-shadow: 0 7px 2px -1px var(--clr-dark-purple);
 }
 
-.play-btn {
+.pvp-btn {
   background-color: var(--clr-accent-100);
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
@@ -63,13 +63,13 @@
     width: 20%;
   }
 
-  .play-btn,
+  .pvp-btn,
   .rules-btn {
     padding: 0.75rem 1rem;
   }
 }
 
-.play-btn img {
+.pvp-btn img {
   width: 20%;
 }
 
@@ -138,7 +138,7 @@
   margin: 0;
 
   position: absolute;
-  bottom: -10%;
+  bottom: -12%;
   left: 40%;
 }
 
